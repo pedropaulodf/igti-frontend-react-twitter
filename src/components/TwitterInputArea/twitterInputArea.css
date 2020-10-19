@@ -1,0 +1,86 @@
+:root{
+  --color-button-green: #04d361;
+  --color-button-green-dark: #04bf58;
+  --color-text-title: #32264d;
+  --color-text-complement: #9c98a6;
+  --color-text-base: #6a6180;
+  --color-box-base: #ffffff;
+  --color-label-green: #04d361;
+  --color-label-red: #e22f2f;
+  --color-label-orange: #ff7b00;
+}
+
+.container{
+  width: 100%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.container h2{
+  font-size: 2em;
+  text-align: center;
+  line-height: 2em;
+}
+
+.container p{
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.container textarea {
+  width: 100%;
+  min-height: 150px;
+  /* background-color:  var(--color-text-title); */
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid #8f8f8f;
+  margin-bottom: 5px;
+  color: var(--color-box-base);
+  font-size: 1.2em;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.container .tweetInfo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.container .tweetInfo span{
+  font-weight: bold;
+}
+.container .tweetInfo button{
+  padding: 10px 20px;
+  font-size: 1.2em;
+  cursor: pointer;
+  background-color: var(--color-button-green);
+  border: none;
+  border-radius: 3px;
+}
+.container .tweetInfo button:hover{
+  background-color: var(--color-button-green-dark);
+}
+.container .tweetInfo button:disabled{
+  opacity: 0.2;
+}
+
+.container .green{
+  color: var(--color-label-green);
+}
+
+.container .orange{
+  color: var(--color-label-orange);
+}
+
+.container .red{
+  color: var(--color-label-red);
+}
+
+.container .emptyMessage{
+  text-align: center;
+  font-size: 1.5em;
+}
