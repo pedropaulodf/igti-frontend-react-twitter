@@ -9,5 +9,5 @@ Typescript, React.js, Axios
 O bootcamp não aborda Typescript, então me desafiei a desenvolver esse pequeno projeto usando essa tecnologia.
 
 ### Observação antes de rodar o projeto
-- Dê um cd na pasta "backend" e dê um yarn start.
-- Verifique a baseURL no arquivo api.ts dentro de src > service.
+- Dê um `cd` na pasta "backend" e dê um `yarn start`.
+- Verifique a baseURL no arquivo `api.ts` dentro de `src > service`.
